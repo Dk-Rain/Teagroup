@@ -1,0 +1,80 @@
+<!--style.css-->
+body {
+            font-family: Arial, sans-serif;
+            background-color: #1027bb;
+            margin: 0;
+            padding: 20px;
+            color: #8d8181;
+        }
+        header {
+            background-color: #bdbcef;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #231d1d;
+            font-size: 1.5em;
+            margin-block-end: 20px;
+        }
+        h1 {
+            text-align: start;
+            color: #333;
+            font-size: 2.5em;
+            margin-block-end: 20px;
+            inset-block-end: colour #0a0a0a;
+            font-weight: bold;
+        }
+        section {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-block-end: 20px;
+        }
+        h2 {
+            color: #555;
+        }
+    .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .program {
+            border: 1px solid #0a0a0a;
+            padding: 20px;
+            border-radius: 8px;
+            inline-size: 45%;
+            min-inline-size: 300px;
+            background-color: #a5b3fa11;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            margin-block-start: 10px;
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input {
+            padding: 8px;
+            margin: 5px 0;
+        }
+        #result1, #result2 {
+            margin-block-start: 10px;
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+        }
+        footer {
+            text-align: center;
+            margin-block-start: 20px;
+            color: #555;
+        }
