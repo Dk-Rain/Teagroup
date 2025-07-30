@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="YILCIT Group Project - Right-Angled Triangle Checker and Palindrome Checker">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <title>YILCIT Group Project </title>
+</head>
+<body>
+        <header class="header-container">
+            <span>YILCIT GROUP</span>
+        </header>
+
+    <div>
+        <h1>
+            <button id="toggleMembers" onclick="toggleMembers()">Show Group Members</button>
+        </h1>
+        <ul id="groupMembers" style="display: none;">
+            <li>Lawrence Paul</li>
+            <li>Favour</li>
+            <li>Chinonso Okeke</li>
+        </ul>
+        </ul>
+    </div>
+    <section>
+        <h2>Group Project: Right-Angled Triangle Checker and Palindrome Checker</h2>
+        <p>This project includes two programs:</p>
+        <ul>
+            <li>A Right-Angled Triangle Checker that verifies if two angles can form a right-angled triangle.</li>
+            <li>A Palindrome Checker that checks if a given number is a palindrome.</li>
+        </ul>
+    </section>
+    <div class="container">
+        <div class="program">
+            <h2>Right-Angled Triangle Checker</h2>
+            <label for="angle1">First Angle:</label>
+            <input type="number" id="angle1" min="1" max="179"><br>
+            <label for="angle2">Second Angle:</label>
+            <input type="number" id="angle2" min="1" max="179"><br>
+            <button onclick="checkTriangle()">Check</button>
+            <div id="result1"></div>
+        </div>
+        <div class="program">
+            <h2>Palindrome Checker</h2>
+            <label for="numberInput">Enter a Number:</label>
+            <input type="number" id="numberInput"><br>
+            <button onclick="checkPalindrome()">Check</button>
+            <div id="result2"></div>
+        </div>
+    </div>
+</Div>
+
+    <footer>
+        <p>&copy; 2025 YILCIT Group (Miva Software Enginering Department). All rights reserved.</p>
+</body>
+</html>
