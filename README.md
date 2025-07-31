@@ -1,2 +1,2 @@
-# Yilcit
+# TEA
 Problem Solving Lab work
